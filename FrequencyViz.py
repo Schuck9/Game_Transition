@@ -36,7 +36,7 @@ def viz_frequency_map(RecordName,Epoch):
         # frequency_path = os.path.join(result_dir,'2020-02-09-23-11-44\w100_ep9400000_u0.0562\frequency_w100_ep9400000_u0.0562.csv')
         w = Epoch_template_str[3]
         u = Epoch_template_str[4]
-        outputname =  os.path.join(gragh_dir,Epoch_str+str(Epoch)+'_Gragh.jpg')
+        outputname =  os.path.join(gragh_dir,Epoch_str+'_Gragh.jpg')
         frequency = pd.read_csv(frequency_path,index_col=0,header=0)
 
 
