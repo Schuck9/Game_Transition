@@ -1,6 +1,6 @@
 """
 A simple implementation of Ultimatum Game visualization
-@date: 2020.2.10
+@date: 2020.5.19
 @author: Tingyu Mo
 """
 
@@ -72,8 +72,8 @@ def viz_frequency_map(RecordName,Epoch):
     plt.title("w={} u={} Epoch={}".format(w,u,Epoch),fontsize = 40)
     plt.xticks(meta_element,ax_label,fontsize=16)
     plt.yticks(meta_element,ax_label,fontsize=16)
-    plt.xlabel('Offer(p)',fontsize=40)
-    plt.ylabel('Demand(q)',fontsize=40)
+    plt.xlabel('Demand(q)',fontsize=40)
+    plt.ylabel('Offer(p)',fontsize=40)
     plt.tight_layout()
     plt.savefig(outputname,dpi=300)
     plt.show()
